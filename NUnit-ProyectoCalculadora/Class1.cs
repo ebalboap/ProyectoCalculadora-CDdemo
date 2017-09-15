@@ -16,7 +16,7 @@ namespace NUnit_ProyectoCalculadora
         {
             var resultado = new Calculadora();
             var dato= resultado.Division(4, 4);
-            Assert.AreEqual(0, dato);
+            Assert.AreEqual(1, dato);
         }
     }
 }
